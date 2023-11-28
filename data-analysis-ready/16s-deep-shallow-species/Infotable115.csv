@@ -1,0 +1,116 @@
+Samples,ID,Species,Species_ID,Location_collected,Depth_code_2lev,Type,type_depth,Class,Order
+DR9_387,DR9_387,Calthropella durissima,Calthropella_durissima_2,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR9_394,DR9_394,Calthropella durissima,Calthropella_durissima_3,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR9_397,DR9_397,Calthropella durissima,Calthropella_durissima_4,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR15_872,DR15_872,Calthropella geodioides,Calthropella_geodioides_5,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR9_384,DR9_384,Calthropella geodioides,Calthropella_geodioides_6,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR9_396,DR9_396,Calthropella geodioides,Calthropella_geodioides_7,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR15_869c,DR15_869c,Geodia anceps,Geodia_anceps_8,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR15_861,DR15_861,Geodia barretti,Geodia_barretti_9,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR15_862a,DR15_862a,Geodia barretti,Geodia_barretti_10,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR15_871,DR15_871,Geodia barretti,Geodia_barretti_12,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR15_870,DR15_870,Geodia nodastrella,Geodia_nodastrella_13,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR15_865,DR15_865,Geodia pachydermata,Geodia_pachydermata_16,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR15_866,DR15_866,Geodia pachydermata,Geodia_pachydermata_17,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR7_247,DR7_247,Geodia pachydermata,Geodia_pachydermata_18,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR4_35,DR4_35,Neoschrammeniella bowerbanki,Neoschrammeniella_bowerbanki_20,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR4_36,DR4_36,Neoschrammeniella bowerbanki,Neoschrammeniella_bowerbanki_21,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR9_415,DR9_415,Neoschrammeniella bowerbanki,Neoschrammeniella_bowerbanki_22,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR4_60,DR4_60,Pachastrella nodulosa,Pachastrella_nodulosa_24,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR4_62,DR4_62,Pachastrella nodulosa,Pachastrella_nodulosa_25,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR4_64,DR4_64,Pachastrella nodulosa,Pachastrella_nodulosa_26,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR15_896,DR15_896,Pachastrella ovisternata,Pachastrella_ovisternata_31,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR4_58,DR4_58,Pachastrella ovisternata,Pachastrella_ovisternata_32,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR4_68,DR4_68,Pachastrella ovisternata,Pachastrella_ovisternata_33,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR15_858a,DR15_858a,Pachastrellidae sp.,Pachastrellidae_sp._38,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+DR15_895,DR15_895,Pachastrellidae sp.,Pachastrellidae_sp._39,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+Ch10,Ch10,Chondrosia reniformis,Chondrosia_reniformis_75,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Chondrillida
+Ch12,Ch12,Chondrosia reniformis,Chondrosia_reniformis_76,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Chondrillida
+Ch17,Ch17,Chondrosia reniformis,Chondrosia_reniformis_77,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Chondrillida
+ROV6_10,ROV6_10,Geodia macandrewii,Geodia_macandrewii_127,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+trawl_4,trawl_4,Geodia macandrewii,Geodia_macandrewii_128,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+ROV6_2,ROV6_2,Geodia macandrewii,Geodia_macandrewii_129,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+ROV2_12a,ROV2_12a,Stelletta normani,Stelletta_normani_344,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+ROV2_13a,ROV2_13a,Stelletta normani,Stelletta_normani_345,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+ROV2_14b,ROV2_14b,Stelletta normani,Stelletta_normani_346,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+ROV2_11b,ROV2_11b,Petrosia crassa,Petrosia_crassa_347,North Atlantic,deep,hma,hma_deep,Demospongiae,Haplosclerida
+ROV2_22a,ROV2_22a,Petrosia crassa,Petrosia_crassa_348,North Atlantic,deep,hma,hma_deep,Demospongiae,Haplosclerida
+ROV25_1a,ROV25_1a,Petrosia crassa,Petrosia_crassa_349,North Atlantic,deep,hma,hma_deep,Demospongiae,Haplosclerida
+ROV2_15a,ROV2_15a,Stryphnus fortis,Stryphnus_fortis_352,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+KF2,KF2,Stryphnus fortis,Stryphnus_fortis_354,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+ROV4_3b,ROV4_3b,Plakortis sp.2,Plakortis_sp.2_355,North Atlantic,deep,hma,hma_deep,Demospongiae,Homoscleromorphorida
+ROV4_4c,ROV4_4c,Plakortis sp.2,Plakortis_sp.2_356,North Atlantic,deep,hma,hma_deep,Demospongiae,Homoscleromorphorida
+ROV10_13b,ROV10_13b,Craniella cranium,Craniella_cranium_359,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+ROV10_14b,ROV10_14b,Craniella cranium,Craniella_cranium_360,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+ROV10_15c,ROV10_15c,Craniella cranium,Craniella_cranium_361,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+Cor1,Cor1,Corticium candelabrum,Corticium_candelabrum_436,Mediterranean,shallow,hma,hma_shallow,Homoscleromorpha,Homoscleromorphorida
+Cor2,Cor2,Corticium candelabrum,Corticium_candelabrum_437,Mediterranean,shallow,hma,hma_shallow,Homoscleromorpha,Homoscleromorphorida
+Cor1_alboran,Cor1_alboran,Corticium candelabrum,Corticium_candelabrum_438,Mediterranean,shallow,hma,hma_shallow,Homoscleromorpha,Homoscleromorphorida
+Cor2_alboran,Cor2_alboran,Corticium candelabrum,Corticium_candelabrum_439,Mediterranean,shallow,hma,hma_shallow,Homoscleromorpha,Homoscleromorphorida
+Pet5,Pet5,Petrosia ficiformis,Petrosia_ficiformis_442,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+Pet6,Pet6,Petrosia ficiformis,Petrosia_ficiformis_443,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+Pet7,Pet7,Petrosia ficiformis,Petrosia_ficiformis_444,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+SS_AGT07_22.2 (6),SS_AGT07_22.2 (6),Geodia hentscheli,Geodia_hentscheli_476,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+SS_AGT07_22.9 (10),SS_AGT07_22.9 (10),Geodia hentscheli,Geodia_hentscheli_477,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+SS_AGT07_22.6 (11),SS_AGT07_22.6 (11),Geodia hentscheli,Geodia_hentscheli_478,North Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+SRR14622522,SRR14622522,Chondrilla caribensis,Chondrilla_caribensis_585,Caribbean,shallow,hma,hma_shallow,Demospongiae,Chondrillida
+SRR14622523,SRR14622523,Chondrilla caribensis,Chondrilla_caribensis_586,Caribbean,shallow,hma,hma_shallow,Demospongiae,Chondrillida
+SRR14622524,SRR14622524,Chondrilla caribensis,Chondrilla_caribensis_587,Caribbean,shallow,hma,hma_shallow,Demospongiae,Chondrillida
+SRR14622159,SRR14622159,Cinachyrella kuekenthali,Cinachyrella_kuekenthali_589,Caribbean,shallow,hma,hma_shallow,Demospongiae,Tetractinellida
+SRR14622190,SRR14622190,Cinachyrella kuekenthali,Cinachyrella_kuekenthali_590,Caribbean,shallow,hma,hma_shallow,Demospongiae,Tetractinellida
+SRR14622191,SRR14622191,Cinachyrella kuekenthali,Cinachyrella_kuekenthali_591,Caribbean,shallow,hma,hma_shallow,Demospongiae,Tetractinellida
+SRR14622090,SRR14622090,Cribrochalina vasculum,Cribrochalina_vasculum_598,Caribbean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+SRR14622156,SRR14622156,Cribrochalina vasculum,Cribrochalina_vasculum_599,Caribbean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+SRR14622256,SRR14622256,Cribrochalina vasculum,Cribrochalina_vasculum_600,Caribbean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+SRR14622430,SRR14622430,Geodia neptuni,Geodia_neptuni_613,Caribbean,shallow,hma,hma_shallow,Demospongiae,Tetractinellida
+SRR14622441,SRR14622441,Geodia neptuni,Geodia_neptuni_614,Caribbean,shallow,hma,hma_shallow,Demospongiae,Tetractinellida
+SRR14622452,SRR14622452,Geodia neptuni,Geodia_neptuni_615,Caribbean,shallow,hma,hma_shallow,Demospongiae,Tetractinellida
+SRR14622139,SRR14622139,Neopetrosia,Neopetrosia__647,Caribbean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+SRR14622141,SRR14622141,Neopetrosia,Neopetrosia_648,Caribbean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+SRR14622230,SRR14622230,Neopetrosia,Neopetrosia_649,Caribbean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+SRR14622792,SRR14622792,Oceanapia bartschi,Oceanapia_bartschi_653,Caribbean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+SRR14622793,SRR14622793,Oceanapia bartschi,Oceanapia_bartschi_654,Caribbean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+SRR14622794,SRR14622794,Oceanapia bartschi,Oceanapia_bartschi_655,Caribbean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+SRR14622593,SRR14622593,Plakina,Plakina_663,Caribbean,shallow,hma,hma_shallow,Demospongiae,Homoscleromorphorida
+SRR14622176,SRR14622176,Plakinastrella,Plakinastrella_664,Caribbean,shallow,hma,hma_shallow,Demospongiae,Homoscleromorphorida
+SRR14622177,SRR14622177,Plakinastrella,Plakinastrella_665,Caribbean,shallow,hma,hma_shallow,Demospongiae,Homoscleromorphorida
+SRR14622178,SRR14622178,Plakinastrella,Plakinastrella_666,Caribbean,shallow,hma,hma_shallow,Demospongiae,Homoscleromorphorida
+SRR14621983,SRR14621983,Plakortis,Plakortis_667,Caribbean,shallow,hma,hma_shallow,Demospongiae,Homoscleromorphorida
+SRR14621984,SRR14621984,Plakortis,Plakortis_668,Caribbean,shallow,hma,hma_shallow,Demospongiae,Homoscleromorphorida
+SRR14621986,SRR14621986,Plakortis,Plakortis_669,Caribbean,shallow,hma,hma_shallow,Demospongiae,Homoscleromorphorida
+SRR14622070,SRR14622070,Siphonodictyon xamaycaense,Siphonodictyon_xamaycaense_676,Caribbean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+SRR14622071,SRR14622071,Siphonodictyon xamaycaense,Siphonodictyon_xamaycaense_677,Caribbean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+SRR14622174,SRR14622174,Siphonodictyon xamaycaense,Siphonodictyon_xamaycaense_678,Caribbean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+Gcyd_IndA_S1,Gcyd_IndA_S1,Geodia cydonium,Geodia_cydonium_713,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Tetractinellida
+Gcyd_IndB_S2,Gcyd_IndB_S2,Geodia cydonium,Geodia_cydonium_714,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Tetractinellida
+Gcyd_IndC_S3,Gcyd_IndC_S3,Geodia cydonium,Geodia_cydonium_715,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Tetractinellida
+Pet_11_nap22,Pet_11_nap22,Petrosia ficiformis,Petrosia_ficiformis_716,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+Pet_14_nap22,Pet_14_nap22,Petrosia ficiformis,Petrosia_ficiformis_717,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+Pet_15_nap22,Pet_15_nap22,Petrosia ficiformis,Petrosia_ficiformis_718,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+Ppul_89_nap22,Ppul_89_nap22,Petrosia pulitzeri,Petrosia_pulitzeri_724,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+Ppul_92_nap22,Ppul_92_nap22,Petrosia pulitzeri,Petrosia_pulitzeri_725,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+Ppul_101_nap22,Ppul_101_nap22,Petrosia pulitzeri,Petrosia_pulitzeri_726,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+Ppul_107_nap22,Ppul_107_nap22,Petrosia pulitzeri,Petrosia_pulitzeri_727,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Haplosclerida
+Cren_21_nap22,Cren_21_nap22,Chondrosia reniformis,Chondrosia_reniformis_728,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Chondrillida
+Cren_22_nap22,Cren_22_nap22,Chondrosia reniformis,Chondrosia_reniformis_729,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Chondrillida
+Cren_23_nap22,Cren_23_nap22,Chondrosia reniformis,Chondrosia_reniformis_730,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Chondrillida
+Cnuc_13_nap22,Cnuc_13_nap22,Chondrilla nucula,Chondrilla_nucula_749,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Chondrillida
+Cnuc_139_nap22,Cnuc_139_nap22,Chondrilla nucula,Chondrilla_nucula_750,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Chondrillida
+Cnuc_145_nap22,Cnuc_145_nap22,Chondrilla nucula,Chondrilla_nucula_751,Mediterranean,shallow,hma,hma_shallow,Demospongiae,Chondrillida
+Srub_Ros3,Srub_Ros3,Stelleta grubii,Stelleta_grubii_795,North Atlantic,shallow,hma,hma_shallow,Demospongiae,Tetractinellida
+Pjoh_Ros4,Pjoh_Ros4,Pachymatisma johnstonia,Pachymatisma_johnstonia_796,North Atlantic,shallow,hma,hma_shallow,Demospongiae,Tetractinellida
+ODA18_63,ODA18_63,Geodia sp.3,Geodia_sp.3_806,South Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+ODA18_206,ODA18_206,Astrophorida sp.2,Astrophorida_sp.2_807,South Atlantic,deep,hma,hma_deep,Demospongiae,Tetractinellida
+Ast1_43611,Ast1_43611,Astrophorida sp.1,Astrophorida_sp.1_816,Pacific,deep,hma,hma_deep,Demospongiae,Tetractinellida
+Calt_43616,Calt_43616,Stelletta,Stelletta_817,Pacific,deep,hma,hma_deep,Demospongiae,Tetractinellida
+Geodia_43648,Geodia_43648,Geodia sp.1,Geodia_sp.1_818,Pacific,deep,hma,hma_deep,Demospongiae,Tetractinellida
+Geo1_43667,Geo1_43667,Rhabdastrella sp.,Rhabdastrella_sp._819,Pacific,deep,hma,hma_deep,Demospongiae,Tetractinellida
+Geo4_43668,Geo4_43668,Caminus sp.,Caminus_sp._820,Pacific,deep,hma,hma_deep,Demospongiae,Tetractinellida
+Geo6_43650,Geo6_43650,Geodia sp.2,Geodia_sp.2_821,Pacific,deep,hma,hma_deep,Demospongiae,Tetractinellida
+Pcra_DR3_31,Pcra_DR3_31,Petrosia crassa,Petrosia_crassa_822,North Atlantic,deep,hma,hma_deep,Demospongiae,Haplosclerida
+Xfri_592,Xfri_592,Xestospongia friabilis,Xestospongia_friabilis_823,North Atlantic,deep,hma,hma_deep,Demospongiae,Haplosclerida
+Xfri_BT6_646,Xfri_BT6_646,Xestospongia friabilis,Xestospongia_friabilis_824,North Atlantic,deep,hma,hma_deep,Demospongiae,Haplosclerida
+ICB20_DR10_707,ICB20_DR10_707,Thymosia guernei,Thymosia_guernei_825,North Atlantic,deep,hma,hma_deep,Demospongiae,Chondrillida
+ICB20_DR8_586,ICB20_DR8_586,Petrosia crassa,Petrosia_crassa_826,North Atlantic,deep,hma,hma_deep,Demospongiae,Haplosclerida
+ICB20_DR8_585,ICB20_DR8_585,Petrosia crassa,Petrosia_crassa_827,North Atlantic,deep,hma,hma_deep,Demospongiae,Haplosclerida
+ICB20_DR3_175,ICB20_DR3_175,Thymosia guernei,Thymosia_guernei_828,North Atlantic,deep,hma,hma_deep,Demospongiae,Chondrillida
