@@ -81,9 +81,14 @@ prefix `Infotable`
 
 ### 16S comparison among deep-sea sponge species and locations
 
-`16s-deep-species-locations.R` takes in the taxa counts and taxonomy files after
+This analysis takes in the taxa counts and taxonomy files after
 processing raw sequences using mothur, along with the sample metadata table and
 generates datasets used for statistic analysis and data visualisations.
+
+```
+16s-deep-species-locations-script1.R
+16s-deep-species-locations-script2.R
+```
 
 ### Meta-transcriptome comparison among deep-sea sponge species and locations
 

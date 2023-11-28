@@ -1,0 +1,99 @@
+---
+title: "DNASeq_Amplicon_NHM_sponge"
+output: html_document
+---
+# This document is equivalent for the '16s-deep-shallow-species' and '16s-deep-species-locations' scripts
+
+# Download amplicon reads from NCBI SRA under project PRJNA988918.
+# For the 16s-deep-species-locations (18 samples) from deep sea of G. barretti, G pachydermata and P. ovisternata, use IDs from Table S1.
+# For the 16s-deep-shallow-species (115 samples) select IDs from Table S2
+
+# Follow MiSeq SOP for the mothur pipeline
+## Download databases 
+https://mothur.org/wiki/silva_reference_files/
+
+silva.seed_v132.align
+silva.gold.align
+silva.nr_v138_1.align
+
+# Prepare file with primer sequences (file name: pcrMicrobes.primers)
+forward	GTGYCAGCMGCCGCGGTAA
+reverse	GGACTACNVGGGTWTCTAAT
+
+# I normaly use a shorter version of the primers to include sequences with truncated primers at the beginning
+# this file is named "pcrMicrobes_shorter.primers"
+forward CAGCMGCCGCGGTAA
+reverse ACNVGGGTWTCTAAT
+
+# Once the fastq sequences have been downloaded and decompress
+# Getting started
+`make.file(inputdir=., type=fastq, prefix=sponge)` 
+`make.contigs(file=sponge.files)`
+
+# In terminal change the name of this file
+mv sponge.contigs.count_table sponge.trim.contigs.count_table
+
+# Removing Primers
+`pcr.seqs(fasta=sponge.trim.contigs.fasta, count=sponge.trim.contigs.count_table, oligos=pcrMicrobes_shorter.primers, pdiffs=1, rdiffs=1)`
+
+# Remove bad sequences
+`screen.seqs(fasta=sponge.trim.contigs.pcr.fasta, count=sponge.trim.contigs.pcr.count_table, maxambig=3, maxhomop=15)`
+
+# Unique sequences
+`unique.seqs(fasta=sponge.trim.contigs.pcr.good.fasta, count=sponge.trim.contigs.pcr.good.count_table)`
+
+# Aligment
+#### Prepare Silva seed
+https://mothur.org/wiki/Silva_reference_files#Release_132 
+The Schloss group is sticking with the v132 version of the SEED database for alignments.
+
+`pcr.seqs(fasta=silva.seed_v132.align, start=11894, end=25319, keepdots=F, processors=8)`
+
+#### Align your sequences
+`align.seqs(fasta=sponge.trim.contigs.pcr.good.unique.fasta, reference=silva.seed_v132.pcr.align)` 
+ 
+### Remove the ones that align outside the aligment fragment
+`screen.seqs(fasta=sponge.trim.contigs.pcr.good.unique.align, count=sponge.trim.contigs.pcr.good.unique.count_table, start=1968, end=11550, processors=16, summary=sponge.trim.contigs.pcr.good.unique.summary)`
+
+#### Remove dots "." at the end and columns of all "-"
+`filter.seqs(fasta=sponge.trim.contigs.pcr.good.unique.good.align, vertical=T, trump=.)`
+
+#### Run again unique sequences, but add in the table.
+`unique.seqs(fasta=sponge.trim.contigs.pcr.good.unique.good.filter.fasta, count=sponge.trim.contigs.pcr.good.unique.good.count_table)`
+
+# denoise sequences
+The next thing we want to do to further de-noise our sequences is to pre-cluster the sequences using the pre.cluster command allowing for up to 2 differences between sequences. This command will split the sequences by group and then sort them by abundance and go from most abundant to least and identify sequences that are within 2 nt of each other. If they are then they get merged. We generally favor allowing 1 difference for every 100 bp of sequence. Possible methods include simple, tree, unoise, and deblur. Default=simple.  
+
+`pre.cluster(fasta=sponge.trim.contigs.pcr.good.unique.good.filter.unique.fasta, count=sponge.trim.contigs.pcr.good.unique.good.filter.count_table , method=unoise, diffs=3)`
+
+# Removing singletons
+Remove singleton sequences that did not cluster. Don't do this if you want OTUs.
+`split.abund(fasta=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.fasta, count=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.count_table,cutoff=1)`
+
+# Chimera check
+`chimera.uchime(fasta=/mbl/share/workspaces/groups/riesgo/cris/Metabarcoding_MNCN/Metab_Pattern_ALLsamples/sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.fasta, dereplicate=t, minh = 1, reference=/mbl/share/workspaces/groups/riesgo/cris/SILVA_v132/silva.gold.align)`
+
+# Discard chimeric sequences  (SOLO PARA EL UCHIME, el VSEARCH lo hace directo)
+Running chimera.vsearch (de nove) with the count file will remove the chimeric sequences from the count file. But you still need to remove those sequences from the fasta file. We do this using remove.seqs.
+
+`remove.seqs(fasta=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.fasta, accnos=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.ref.uchime.accnos, count=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.count_table)`
+
+# Classify final sequences with Silva v.138
+`classify.seqs(fasta=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.pick.fasta, count=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.pick.count_table, reference=/mbl/share/workspaces/groups/riesgo/cris/SILVA_v138/silva.nr_v138_1.align, taxonomy=/mbl/share/workspaces/groups/riesgo/cris/SILVA_v138/silva.nr_v138_1.tax, cutoff=80)`
+
+# remove some lineages
+`remove.lineage(fasta=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.pick.fasta, count=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.pick.count_table, taxonomy=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.pick.nr_v138_1.wang.taxonomy, taxon=Chloroplast-Mitochondria-Eukaryota)`
+
+### Prepare summary.tax
+`summary.tax(taxonomy=current, count=current,processors=16)`
+
+### To prepare the ASVs table
+`make.shared(count=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.pick.pick.count_table)`
+
+### Add the classification on those ones
+`classify.otu(list=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.pick.pick.asv.list, count=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.pick.pick.count_table, taxonomy=sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.pick.nr_v138_1.wang.pick.taxonomy, label=ASV)`
+
+# Close mothur and prepare the files in terminal. Keep only column 1 and 3 from the share file to reduce size
+cut -f 1,3 --complement sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.pick.pick.asv.shared > final_sponge_asv.shared
+
+# Download final_sponge_asv.shared and sponge.trim.contigs.pcr.good.unique.good.filter.unique.precluster.abund.pick.nr_v138_1.wang.pick.taxonomy
