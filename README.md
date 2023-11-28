@@ -8,7 +8,7 @@
 
 This repository holds code for generating tables and figures for the
 research manuscript **High compositional and functional similarity in
-the microbiome of deep-sea sponges** [doi-to-go-here](doi)
+the microbiome of deep-sea sponges** [doi](doi-to-go-here)
 
 ## Analysis sections
 
