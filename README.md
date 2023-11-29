@@ -48,7 +48,7 @@ should be then exported to the relevant
     "./data-analysis-ready/metatrans-deep-species-locations/trinity-output" 
     "./data-analysis-ready/metatrans-deep-species-locations/IMG-output"
 
-### 16S
+### 16S rRNA gene
 
 16S sequence processing for both analyses was conducted similarly using
 mothur;
