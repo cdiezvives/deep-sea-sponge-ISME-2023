@@ -60,9 +60,15 @@ mothur;
 Raw sequences were processed first with trinity and then passed on to
 IMG for annotation.
 
-    ./bioinformatic-processing-scripts/meta-transcriptomic-trinity.rmd
+We followed the [Trinity de novo assembly
+SOP](https://github.com/trinityrnaseq/trinityrnaseq/wiki) exactly to
+generate a single reference de-novo metatranscriptome (a fasta file) of
+the 18 samples. And further the [Trinity SOP for transcript
+quantification](https://github.com/trinityrnaseq/trinityrnaseq/wiki/Trinity-Transcript-Quantification)
+using RSEM.
 
-The processed data from IMG should be downloaded to
+The the fasta file was then submitted to IMG for processing,. The
+processed data from IMG should be downloaded to
 
     data-analysis-ready/metatrans-deep-species-locations/IMG-output
 
